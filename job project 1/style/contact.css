@@ -1,0 +1,78 @@
+@import url(nav.css);
+@import url(footer.css);
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem ;
+}
+h3 span{
+    font-size: 3rem;
+    color: #ffa500;
+}
+.contact-form form input{
+    padding: .5rem;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: .2rem solid #141414ac;
+    width: 35rem;
+    height: 7rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.contact-form .btn input{
+font-size: 2rem;
+border: 1px groove lightslategray;
+padding: 1rem;
+height: max-content;
+width:20rem;
+border-radius: 1rem;
+}
+.contact-form form{
+    margin-left: 5rem;
+}
+.contact-form form textarea{
+    font-size: 2rem;
+    height: 10rem;
+    width: 95%;
+}
+.container{
+    display: flex;
+    padding: 1rem;
+}
+.img img{
+    height: 45rem;
+    border-radius: .5rem;
+    width:100%;
+}
+.map-contaner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+padding: 1rem;
+justify-content: center;
+}
+.addres-txt i {
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    color: #ffa500;
+}
+
+@media(max-width:769px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .contact-form form input{
+        width: 100%;
+    }
+}
